@@ -22,7 +22,7 @@ copy this script anywhere inside the freenas jail that the plex service is beein
 3. Click he Shell icon on the bottom of the Jails listing. [C:/>]
 
 4. Type
-   fetch -o plex_update.sh https://github.com/josue-scripts/FreeNAS_Jail_Plex_Update/blob/master/plex_update.sh
+   fetch -o plex_update.sh https://raw.githubusercontent.com/josue-scripts/FreeNAS_Jail_Plex_Update/master/plex_update.sh
 
 5. allow the script to be run by giving it executable permissions:
    chmod 755 plex_update.sh
